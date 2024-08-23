@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+    font-family: "Macondo", cursive;
+}
+.main-font1{
+    font-family: "Macondo", cursive;
+}
+.main-font2{
+        font-family: "Rock Salt", cursive;
+}
+.main-font3{
+    font-family: "Satisfy", cursive;
+}
+.main-font4{
+    font-family: "Amaranth", sans-serif;
+}
