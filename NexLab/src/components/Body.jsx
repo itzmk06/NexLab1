@@ -3,6 +3,7 @@ import MouseFollower from "../helpers/MouseFollower";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppLayout from "./AppLayout";
 import Home from "./Home";
+import Login from "./Login";
 
 const Body=()=>{
     const appRouter=createBrowserRouter([
@@ -15,8 +16,8 @@ const Body=()=>{
                     element:<Landing/>
                 },
                 {
-                    path:'/home',
-                    element:<Home/>
+                    path:'/login',
+                    element:<Login/>
                 }
             ]
         }
