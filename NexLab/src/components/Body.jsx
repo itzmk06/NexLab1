@@ -2,8 +2,8 @@ import Landing from "./Landing";
 import MouseFollower from "../helpers/MouseFollower";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppLayout from "./AppLayout";
-import Home from "./Home";
 import Login from "./Login";
+import SignUp from "./SignUp"
 
 const Body=()=>{
     const appRouter=createBrowserRouter([
@@ -18,6 +18,10 @@ const Body=()=>{
                 {
                     path:'/login',
                     element:<Login/>
+                },
+                {
+                    path:'/signup',
+                    element:<SignUp/>
                 }
             ]
         }

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const LandingBody = () => {
   return (
-    <div className="flex h-screen bg-[#DAF0EE]">
+    <div className="flex h-screen bg-[#F6F7EB]">
       <div className="flex flex-col mt-[-35%] md:mt-[-10%] text-5xl text-center gap-5 pt-[10%] md:gap-6 md:mx-2 justify-center items-center main-font3  md:text-6xl w-full">
         <h1 className="font-bold">Where developers shape code&apos;s future</h1>
         <h1 className="font-bold"> United by ambition driven by innovation</h1>
