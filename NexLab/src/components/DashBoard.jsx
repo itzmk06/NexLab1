@@ -2,7 +2,7 @@ import SideBar from "../helpers/SideBar";
 
 const DashBoard=()=>{
     return (
-        <div className="bg-zinc-600 w-full h-screen">
+        <div className="bg-[#282828] w-full h-screen">
             <SideBar/>
         </div>
     )
