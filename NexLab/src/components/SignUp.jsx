@@ -28,7 +28,7 @@ const SignUp=()=>{
                         <Link className="text-[#1964D5] font-semibold" to={"/login"}>Login</Link>
                     </div>
                 </div>
-                    <div className="px-1">
+                    <div className="px-1 text-sm">
                     <h1>By creating an account, you accept the <b>NexLab&apos;s</b> <Link className="text-[#1964D5] font-semibold">Terms of service</Link> & <Link className="text-[#1964D5] font-semibold">Privacy Policy</Link> </h1>
                     </div>
             </div>
