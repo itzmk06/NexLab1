@@ -1,7 +1,7 @@
 const SideBar = () => {
   return (
-    <div className="w-[15%]   h-screen bg-[#F4F4F4] flex items-center justify-start rounded-tr-xl rounded-br-xl">
-      <div className="flex flex-col gap-5 px-5 py-4">
+    <div className="w-[15%] text-[#F4F4F4] h-screen bg-[#121212] flex items-center justify-start rounded-tr-xl rounded-br-xl">
+      <div className="flex flex-col gap-5 px-5 py-4 cursor-pointer">
         <div className="flex gap-2 ">
           <i className="fi fi-sr-square-n text-3xl ml-[-0.3rem]"></i>
           <h1 className="text-2xl font-extrabold">NexLab</h1>

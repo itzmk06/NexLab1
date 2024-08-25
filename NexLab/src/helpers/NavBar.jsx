@@ -1,39 +1,56 @@
 import { Link } from "react-router-dom";
+
 const NavBar = () => {
   return (
-    <div className="mt-1  w-full md:h-14 h-12 px-1 py-2    md:px-3 md:py-2 z-[999] relative">
-      <div className="flex justify-between items-center text-base font-medium">
-        <h1 className="main-font1 text-3xl md:text-3xl font-extrabold">
+    <div className="bg-[#282828] text-[#E0E0E0] w-full md:h-16 h-14 px-4 py-2 flex items-center shadow-lg border-b border-[#333]">
+      <div className="flex justify-between items-center w-full">
+        <h1 className="main-font1 text-white text-2xl md:text-4xl font-extrabold tracking-tight transition-transform transform hover:scale-105">
           NexLab
         </h1>
-        <div className="md:flex hidden md:flex-row md:text-lg md:gap-x-5 cursor-pointer">
-          <div className="flex items-center px-2  gap-1">
-            <h1 className="font-semibold">Features</h1>
-            <i className="fi fi-br-angle-small-down mt-2 text-md "></i>
+        <div className="hidden md:flex md:items-center md:gap-x-8 text-lg font-medium">
+          <div className="relative group">
+            <button className="flex items-center gap-2 hover:text-[#00E5FF] transition-colors duration-300">
+              <span>Features</span>
+              <i className="fi fi-br-angle-small-down mt-1 text-md"></i>
+            </button>
+            <div className="absolute top-full left-0 mt-2 hidden group-hover:block bg-[#1F1F1F] text-[#E0E0E0] rounded-lg shadow-lg w-48">
+            </div>
           </div>
-          <div className="flex items-center gap-1 px-2">
-            <h1 className="font-semibold">Support</h1>
-            <i className="fi fi-br-angle-small-down mt-2 text-md"></i>
+          <div className="relative group">
+            <button className="flex items-center gap-2 hover:text-[#00E5FF] transition-colors duration-300">
+              <span>Support</span>
+              <i className="fi fi-br-angle-small-down mt-1 text-md"></i>
+            </button>
+            <div className="absolute top-full left-0 mt-2 hidden group-hover:block bg-[#1F1F1F] text-[#E0E0E0] rounded-lg shadow-lg w-48">
+            </div>
           </div>
-          <div className="flex items-center gap-1 px-2">
-            <h1 className="font-semibold">Updates</h1>
-            <i className="fi fi-br-angle-small-down mt-2 text-md"></i>
+          <div className="relative group">
+            <button className="flex items-center gap-2 hover:text-[#00E5FF] transition-colors duration-300">
+              <span>Updates</span>
+              <i className="fi fi-br-angle-small-down mt-1 text-md"></i>
+            </button>
+            <div className="absolute top-full left-0 mt-2 hidden group-hover:block bg-[#1F1F1F] text-[#E0E0E0] rounded-lg shadow-lg w-48">
+            </div>
           </div>
-          <div className="flex items-center gap-1 px-2">
-            <h1 className="font-semibold">Community</h1>
-            <i className="fi fi-br-angle-small-down mt-2 text-md"></i>
+          <div className="relative group">
+            <button className="flex items-center gap-2 hover:text-[#00E5FF] transition-colors duration-300">
+              <span>Community</span>
+              <i className="fi fi-br-angle-small-down mt-1 text-md"></i>
+            </button>
+            <div className="absolute top-full left-0 mt-2 hidden group-hover:block bg-[#1F1F1F] text-[#E0E0E0] rounded-lg shadow-lg w-48">
+            </div>
           </div>
         </div>
-        <div className="flex md:gap-x-3 gap-x-3">
+        <div className="flex gap-x-4 cursor-pointer z-[99]">
           <Link
             to={"/login"}
-            className="cursor-pointer bg-[#cecccca2] px-3 py-1 text-black rounded-md font-semibold"
+            className="bg-[#333] text-[#E0E0E0] px-4 py-2 rounded-lg font-medium transition-transform duration-300 hover:scale-105 hover:bg-[#444] flex items-center justify-center"
           >
             Login
           </Link>
           <Link
             to={"/signup"}
-            className="bg-black bg-opacity-90 px-3 py-1 text-zinc-200 rounded-md font-semibold"
+            className="bg-[#00E5FF] text-[#0D0D0D] px-4 py-2 rounded-lg font-medium transition-transform duration-300 hover:scale-105 hover:bg-[#00BFFF] flex items-center justify-center"
           >
             Sign up
           </Link>

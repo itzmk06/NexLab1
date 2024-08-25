@@ -28,7 +28,7 @@ const SmoothMouseFollower = () => {
                 transform: springProps.x.to((x, y = springProps.y.get()) => `translate(${x}px, ${y}px)`),
                 width: 20,
                 height: 20,
-                backgroundColor: '#272727',
+                backgroundColor: 'white',
                 borderRadius: '50%',
                 pointerEvents: 'none',
             }}
