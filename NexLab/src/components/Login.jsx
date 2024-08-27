@@ -51,7 +51,7 @@ const Login = () => {
           </button>
         </div>
         <div className="flex justify-between md:w-9/12 w-11/12 text-[#B0BEC5]">
-          <div className="flex gap-1">
+          <div className="flex flex-col gap-1">
             <h1>Don&apos;t have an account?</h1>
             <Link to={"/signup"} className="text-[#00BFFF] font-semibold hover:underline">
               Sign up

@@ -50,7 +50,7 @@ const NavBar = () => {
           </Link>
           <Link
             to={"/signup"}
-            className="bg-[#00E5FF] text-[#0D0D0D] px-4 py-2 rounded-lg font-medium transition-transform duration-300 hover:scale-105 hover:bg-[#00BFFF] flex items-center justify-center"
+            className="bg-[#00BFFF] text-[#0D0D0D] px-4 py-2 rounded-lg font-medium transition-transform duration-300 hover:scale-105 hover:bg-[#009ACD] flex items-center justify-center"
           >
             Sign up
           </Link>
