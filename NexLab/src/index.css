@@ -17,3 +17,40 @@ html,body{
 .main-font4{
     font-family: "Amaranth", sans-serif;
 }
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1b1b1b;
+    border-radius: 8px;
+    border: 1px solid #2a2a2a;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 8px;
+    border: 2px solid #1b1b1b;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  ::-webkit-scrollbar-thumb:active {
+    background-color: #666;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+  }
+  
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: #1b1b1b;
+  }
+  
