@@ -18,7 +18,7 @@ const NavBarApp = () => {
         </div>
 
         <div className="flex items-center px-2 space-x-4">
-          <button className="px-3 py-1 md:font-semibold bg-[#00BFFF] rounded-md text-white shadow-lg transition-transform duration-300 ease-in-out  hover:to-[#1b98c2a8] transform hover:scale-105">
+          <button className="px-3 py-1 md:font-semibold  bg-[#00BFFF] rounded-md text-zinc-700 shadow-lg transition-transform duration-300 ease-in-out  hover:to-[#1b98c2a8] transform hover:scale-105">
             New Project
           </button>
           <div className="relative">
