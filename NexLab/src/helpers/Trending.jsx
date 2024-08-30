@@ -15,7 +15,6 @@ const Trending=()=>{
                 <div className="flex flex-row items-center justify-start mt-2">
                     <button className=" bg-[#00BFFF] text-sm py-1 font-bold text-zinc-700 hover:bg-[#009ACD] transition-transform duration-300 hover:scale-105 px-2  rounded-lg">Discover more</button>
                 </div>
-
             </div>
         </div>
     )

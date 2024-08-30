@@ -3,7 +3,7 @@ const ProjectCard = () => {
         <div className="bg-[#202020] w-full md:w-full h-24 group rounded-lg shadow-lg p-3 flex justify-between items-center transition transform hover:scale-105 hover:bg-[#292929] duration-300 ease-in-out cursor-pointer">
             <div className="flex items-center gap-3 ">
                 <img 
-                    className="w-10 h-10 rounded-md border border-[#333] shadow-inner group-hover:scale-110 transition-transform duration-300 ease-in-out" 
+                    className="w-10 h-10    shadow-inner group-hover:scale-110 transition-transform duration-300 ease-in-out" 
                     src="https://cdn-icons-png.flaticon.com/128/3670/3670147.png" 
                     alt="Project Thumbnail" 
                 />
