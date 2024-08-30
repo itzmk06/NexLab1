@@ -1,3 +1,4 @@
+import { projectData } from "../Constants/constant";
 import ProjectCard from "./ProjectCard";
 const Trending=()=>{
     return(
@@ -8,9 +9,12 @@ const Trending=()=>{
                     <h1 className="text-base font-bold">Trending Now</h1>
                 </div>
                 <div className="flex flex-col gap-2 mt-1">
-                    <ProjectCard/>
-                    <ProjectCard/>
-                    <ProjectCard/>  
+                {
+                    projectData.data1.map((project,index)=>{
+                    return<ProjectCard key={index} project_logo={project.project_logo} project_title={project.project_title} project_description={project.project_description} project_stack={project.project_stack} project_likes={project.project_likes}/>
+                    })
+                }
+                
                 </div>
                 <div className="flex flex-row items-center justify-start mt-2">
                     <button className=" bg-[#00BFFF] text-sm py-1 font-bold text-zinc-700 hover:bg-[#009ACD] transition-transform duration-300 hover:scale-105 px-2  rounded-lg">Discover more</button>

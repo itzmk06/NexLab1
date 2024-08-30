@@ -43,3 +43,29 @@ export const userData = {
       ],
     },
   };
+
+export const projectData={
+  data1:[
+        {
+        project_logo:"https://cdn-icons-png.flaticon.com/128/3670/3670147.png",
+        project_title:"1OOx YouTube",
+        project_description:"Most Powerful version of YouTube",
+        project_stack:['React.js', 'MongoDB', 'Node.js'],
+        project_likes:100
+      },
+      {
+        project_logo:"https://cdn-icons-png.flaticon.com/128/6033/6033716.png",
+        project_title:"Scaling Meta backend",
+        project_description:"I don't know what i wrote",
+        project_stack:['Spring boot', 'Spring', 'Microservice'],
+        project_likes:150
+      },
+      {
+        project_logo:"https://cdn-icons-png.flaticon.com/128/12222/12222588.png",
+        project_title:"ChatGPT Helper",
+        project_description:"ChatGPT Zindabad",
+        project_stack:["Prompt Engineering"],
+        project_likes:6000
+      }
+  ]
+}

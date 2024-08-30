@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import Badge from "./Badge";
 const Profile = ({ profilePic, name, username, skills }) => (
     <div className="flex items-center justify-evenly w-full px-3 group z-0">
@@ -30,3 +31,10 @@ const Profile = ({ profilePic, name, username, skills }) => (
   );
 
 export default Profile;
+
+Profile.propTypes={
+  profilePic:PropTypes.string.isRequired,
+  name:PropTypes.string.isRequired,
+  username:PropTypes.string.isRequired,
+  skills:PropTypes.array.isRequired
+}

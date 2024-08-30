@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const Badge = ({ src, label }) => (
     <div className="flex items-center gap-1 mr-1 mt-2  bg-[#ffffff25] bg-opacity-20 px-2 py-1 rounded-md backdrop-blur-md shadow-md transform group-hover:scale-105 transition duration-200 ease-in-out cursor-pointer">
       <img
@@ -9,3 +11,8 @@ const Badge = ({ src, label }) => (
     </div>
   );
 export default Badge;
+
+Badge.propTypes={
+  src:PropTypes.string.isRequired,
+  label:PropTypes.string.isRequired
+}

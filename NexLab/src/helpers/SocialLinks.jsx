@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 const SocialLinks = ({ links }) => (
     <div className="flex justify-around gap-1 cursor-pointer  w-full px-4">
       {links.map((link, index) => (
@@ -15,4 +16,9 @@ const SocialLinks = ({ links }) => (
       ))}
     </div>
   );
-export default SocialLinks;  
+export default SocialLinks;
+
+SocialLinks.propTypes={
+  links:PropTypes.string.isRequired
+
+}
