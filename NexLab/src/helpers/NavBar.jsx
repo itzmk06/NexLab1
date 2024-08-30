@@ -41,7 +41,7 @@ const NavBar = () => {
             </div>
           </div>
         </div>
-        <div className="flex gap-x-4 cursor-pointer ">
+        <div className="flex gap-x-4 cursor-pointer z-[9999]">
           <Link
             to={"/login"}
             className="bg-[#333] text-[#E0E0E0] px-4 py-2 rounded-lg font-medium transition-transform duration-300 hover:scale-105 hover:bg-[#444] flex items-center justify-center"
