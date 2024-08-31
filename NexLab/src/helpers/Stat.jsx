@@ -16,6 +16,6 @@ export default Stat;
 Stat.propTypes={
   iconClass:PropTypes.string.isRequired,
   title:PropTypes.string.isRequired,
-  count:PropTypes.number.isRequired,
+  count:PropTypes.string.isRequired,
   colorClass:PropTypes.string.isRequired
 }

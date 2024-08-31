@@ -2,7 +2,7 @@ import { projectData } from "../Constants/constant";
 import ProjectCard from "./ProjectCard";
 const Trending=()=>{
     return(
-        <div className="w-[98%] px-2 transform flex justify-center md:w-full ml-1 md:ml-0 md:py-2 md:p-2 md:pr-3 md:mt-12 mt-16 overflow-auto h-50">
+        <div className="w-[98%] px-2 transform   flex justify-center md:w-full ml-1 md:ml-0 md:mt-[-0.4rem] md:p-2 md:pr-3  overflow-y-auto h-50">
             <div className="bg-[#F4F4F4] w-full h-full px-2 py-1 rounded-xl bg-opacity-10 text-zinc-100">
             <div className="flex gap-1 items-center justify-start">
                     <img className="w-5 h-5 mb-1" src="https://cdn-icons-png.flaticon.com/128/785/785116.png" />
@@ -17,7 +17,7 @@ const Trending=()=>{
                 
                 </div>
                 <div className="flex flex-row items-center justify-start mt-2">
-                    <button className=" bg-[#00BFFF] text-sm py-1 font-bold text-zinc-700 hover:bg-[#009ACD] transition-transform duration-300 hover:scale-105 px-2  rounded-lg">Discover more</button>
+                    <button className=" px-2 py-1 mb-1 text-sm md:font-semibold bg-[#00BFFF] rounded-md text-zinc-700 shadow-lg transition-transform duration-300 ease-in-out hover:bg-[#1b98c2a8] transform hover:scale-105">Discover more</button>
                 </div>
             </div>
         </div>

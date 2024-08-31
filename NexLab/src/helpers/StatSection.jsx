@@ -17,5 +17,5 @@ const StatsSection = ({ stats }) => (
 export default StatsSection;
 
 StatsSection.propTypes={
-  stats:PropTypes.string.isRequired
+  stats:PropTypes.array.isRequired
 }

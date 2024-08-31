@@ -10,7 +10,7 @@ const Profile = ({ profilePic, name, username, skills }) => (
         />
         <Badge
           src="https://cdn-icons-png.flaticon.com/128/3459/3459528.png"
-          label="React Prodigy"
+          label="React Guru"
         />
       </div>
       <div className="flex flex-col gap-2 w-7/12">

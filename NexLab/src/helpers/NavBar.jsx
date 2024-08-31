@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <div className="bg-[#282828] text-[#E0E0E0] w-full md:h-16 h-14 px-4 py-2 flex items-center shadow-lg border-b border-[#333]">
       <div className="flex justify-between items-center w-full">
-        <h1 className="main-font1 text-white text-2xl md:text-4xl font-extrabold tracking-tight transition-transform transform hover:scale-105">
+        <h1 className="main-font1 cursor-pointer text-white text-2xl md:text-3xl font-extrabold tracking-tight transition-transform transform hover:scale-105">
           NexLab
         </h1>
         <div className="hidden md:flex md:items-center md:gap-x-8 text-lg font-medium">

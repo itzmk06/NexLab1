@@ -19,6 +19,6 @@ const SocialLinks = ({ links }) => (
 export default SocialLinks;
 
 SocialLinks.propTypes={
-  links:PropTypes.string.isRequired
+  links:PropTypes.array.isRequired
 
 }
