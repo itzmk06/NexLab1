@@ -69,3 +69,60 @@ export const projectData={
       }
   ]
 }
+
+export const jobData=[
+  {
+      "companyLogo": "https://cdn-icons-png.flaticon.com/128/2702/2702602.png",
+      "companyName": "Google",
+      "jobTitle": "Software Architect",
+      "location": "Bengaluru, Karnataka, India",
+      "jobType": "Full Time",
+      "requirements": ["Full Stack Developer", "JavaScript", "React", "Node.js", "SQL"],
+      "salaryRange": "$130,000 - $170,000"
+  },
+  {
+      "companyLogo": "https://cdn-icons-png.flaticon.com/128/733/733547.png",
+      "companyName": "Facebook",
+      "jobTitle": "Software Engineer",
+      "location": "Menlo Park, California, USA",
+      "jobType": "Full Time",
+      "requirements": ["Backend Development", "Python", "Django", "AWS", "API Design"],
+      "salaryRange": "$120,000 - $150,000"
+  },
+  {
+      "companyLogo": "https://cdn-icons-png.flaticon.com/128/15466/15466027.png",
+      "companyName": "Amazon",
+      "jobTitle": "Product Manager",
+      "location": "Seattle, Washington, USA",
+      "jobType": "Full Time",
+      "requirements": ["Product Strategy", "Market Research", "Data Analysis", "Project Management", "Agile"],
+      "salaryRange": "$140,000 - $170,000"
+  },
+  {
+      "companyLogo": "https://cdn-icons-png.flaticon.com/128/179/179309.png",
+      "companyName": "Apple",
+      "jobTitle": "UX Designer",
+      "location": "Cupertino, California, USA",
+      "jobType": "Full Time",
+      "requirements": ["User Research", "Wireframing", "Prototyping", "UI Design", "Figma"],
+      "salaryRange": "$110,000 - $140,000"
+  },
+  {
+      "companyLogo": "https://cdn-icons-png.flaticon.com/128/732/732221.png",
+      "companyName": "Microsoft",
+      "jobTitle": "Data Scientist",
+      "location": "Redmond, Washington, USA",
+      "jobType": "Full Time",
+      "requirements": ["Machine Learning", "Python", "SQL", "Data Visualization", "Statistical Analysis"],
+      "salaryRange": "$130,000 - $160,000"
+  },
+  {
+      "companyLogo": "https://cdn-icons-png.flaticon.com/128/732/732228.png",
+      "companyName": "Netflix",
+      "jobTitle": "DevOps Engineer",
+      "location": "Los Gatos, California, USA",
+      "jobType": "Full Time",
+      "requirements": ["CI/CD", "Docker", "Kubernetes", "Cloud Platforms", "Scripting"],
+      "salaryRange": "$125,000 - $155,000"
+  }
+]

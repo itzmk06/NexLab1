@@ -46,7 +46,7 @@ const Login = () => {
             type="password"
             placeholder="Password"
           />
-          <button className="w-32 text-white mx-auto py-2 rounded-lg bg-[#00BFFF] to-[#0052CC] hover:bg-gradient-to-r hover:from-[#009ACD] hover:to-[#009ACD] transition duration-300 shadow-lg transform hover:scale-105">
+          <button className="w-32 text-black mx-auto py-2 rounded-lg bg-[#00BFFF] to-[#0052CC] hover:bg-gradient-to-r hover:from-[#009ACD] hover:to-[#009ACD] transition duration-300 shadow-lg transform hover:scale-105">
             Sign in
           </button>
         </div>

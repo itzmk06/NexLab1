@@ -18,7 +18,7 @@ const SideBar = () => {
       >
         <div className="flex gap-2 mt-5" onClick={() => setOpen(false)}>
           <i className="fi fi-sr-square-n text-3xl ml-[-0.3rem]"></i>
-          <h1 className="text-2xl font-bold">NexLab</h1>
+          <h1 className="text-2xl font-base">NexLab</h1>
         </div>
         <div className="flex w-full gap-3 items-center hover:bg-[#00A8E1] hover:bg-opacity-35 hover:px-2 hover:py-2 transform transition-all ease-in-out rounded-xl hover:duration-200 hover:backdrop-blur-xl">
           <i className="fi fi-ss-home text-xl text-[#00A8E1]"></i>

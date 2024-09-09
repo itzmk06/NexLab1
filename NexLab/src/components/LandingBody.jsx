@@ -17,7 +17,7 @@ const LandingBody = () => {
         </div>
         <div>
           <Link to={'/dashboard'}>
-            <button className="text-lg font-semibold main-font1 px-6 py-3 bg-[#00BFFF] text-[#0D0D0D] rounded-lg hover:bg-[#009ACD] transition-transform duration-300 hover:scale-110">
+            <button className="text-lg text-zinc-700 font-semibold main-font4  px-6 py-3 w-40  mx-auto rounded-lg bg-[#00BFFF] hover:bg-[#00BFFF]  transition duration-300 shadow-lg transform hover:scale-110">
               Get Started
             </button>
           </Link>

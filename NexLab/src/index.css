@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 html,body{
-  font-family: "Salsa", system-ui;
+  /* font-family: "Montserrat", system-ui; */
+  /* font-family: "Nunito", sans-serif; */
 }
 .main-font1{
   font-family: "Salsa", system-ui;
@@ -15,7 +16,7 @@ html,body{
     font-family: "Satisfy", cursive;
 }
 .main-font4{
-    font-family: "Amaranth", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 ::-webkit-scrollbar {
     display: none;

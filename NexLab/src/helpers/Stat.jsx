@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const Stat = ({ iconClass, title, count, colorClass }) => (
     <div
-      className={`flex gap-2 items-center justify-center bg-white bg-opacity-10 px-3 py-2 rounded-lg hover:scale-105 transition transform duration-200 ease-in-out cursor-pointer shadow-md ${colorClass}`}
+      className={`flex gap-2 items-center justify-center bg-white bg-opacity-10 px-3 py-2 rounded-lg  transition transform duration-200 ease-in-out cursor-pointer shadow-md ${colorClass}`}
     >
       <i className={`${iconClass} text-base mt-1 text-white`}></i>
       <div className="text-center text-white">

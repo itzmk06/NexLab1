@@ -23,7 +23,7 @@ const SignUp = () => {
             type="password"
             placeholder="Password"
           />
-          <button className="w-40 text-white mx-auto py-2 rounded-lg bg-[#00BFFF] hover:bg-[#00BFFF]  transition duration-300 shadow-lg transform hover:scale-110 ">
+          <button className="w-40 text-black mx-auto py-2 rounded-lg bg-[#00BFFF] hover:bg-[#00BFFF]  transition duration-300 shadow-lg transform hover:scale-110 ">
             Sign up
           </button>
           <hr className="border-t border-[#424242] " />

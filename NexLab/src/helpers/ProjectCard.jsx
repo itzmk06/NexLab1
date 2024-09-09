@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const ProjectCard = ({project_logo,project_title,project_description,project_stack,project_likes}) => {
     return (
-        <div className=" bg-[#202020] w-full md:w-full h-24 group rounded-lg shadow-lg p-3 flex justify-between items-center transition transform hover:scale-105 hover:bg-[#292929] duration-300 ease-in-out cursor-pointer ">
+        <div className=" bg-[#202020] w-full  md:w-full h-24 group rounded-lg shadow-lg p-3 flex justify-between items-center transition transform hover:scale-105 hover:bg-[#292929] duration-300 ease-in-out cursor-pointer ">
             <div className="flex items-center gap-3 ">
                 <img 
                     className="w-10 h-10 shadow-inner group-hover:scale-110 transition-transform duration-300 ease-in-out" 

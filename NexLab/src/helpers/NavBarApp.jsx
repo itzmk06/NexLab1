@@ -7,7 +7,7 @@ const NavBarApp = () => {
         <div className="transition-transform duration-300 ease-in-out relative z-[1000]">
           <SideBar />
         </div>
-        <div className="hidden w-5/12 py-5 gap-5 ml-14 md:flex justify-center items-center relative md:left-[5%] md:translate-[50%,50%]">
+        <div className="hidden w-4/12 py-5 gap-5 ml-14 md:flex justify-center items-center relative md:left-[5%] md:translate-[50%,50%]">
           <input
             type="text"
             placeholder="Search for projects, developers, topics, and more..."

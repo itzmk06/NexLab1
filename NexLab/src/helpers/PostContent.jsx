@@ -1,6 +1,6 @@
 const PostContent = () => {
     return (
-      <div className="w-[98%] bg-[#202020] rounded-lg mx-auto mt-[-1.3rem]  px-4 py-10 text-zinc-200 text-base">
+      <div className="w-[98%] bg-[#202020] rounded-lg mx-auto mt-[-3rem]   px-4 py-10 text-zinc-200 text-base">
         <div className="space-y-4">
           <h1 className="text-lg font-semibold text-white mt-2">🚀 Welcome to NexLab!</h1>
           <p className="leading-relaxed">
