@@ -126,3 +126,95 @@ export const jobData=[
       "salaryRange": "$125,000 - $155,000"
   }
 ]
+
+
+export const dummyMessages = [
+  {
+    id: 1,
+    name: 'Neeha Prajapati',
+    message: 'Ok, I will text you back and what ...',
+    avatar: 'https://images.unsplash.com/photo-1673443314719-aa8948a09a3f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDN8ODI1NDQzMXx8ZW58MHx8fHx8',
+    time: '10m',
+    unread: 3
+  },
+  {
+    id: 2,
+    name: 'Rahul Verma',
+    message: 'Hey, did you get the update on ...',
+    avatar: 'https://images.unsplash.com/photo-1552058544-f2b08422138a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NTN8OTM3MzYxfHx8ZW58MHx8fHx8',
+    time: '5m',
+    unread: 2
+  },
+  {
+    id: 3,
+    name: 'Alisha Singh',
+    message: 'Let\'s sync up tomorrow for the ...',
+    avatar: 'https://images.unsplash.com/photo-1725668104598-376a886f52a5?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8',
+    time: '2h',
+    unread: 1
+  },
+  {
+    id: 4,
+    name: 'Praveen Joshi',
+    message: 'Great job on the project! 🎉',
+    avatar: 'https://images.unsplash.com/photo-1502378735452-bc7d86632805?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDV8NzM3MzI0fHx8ZW58MHx8fHx8',
+    time: '30m',
+    unread: 0
+  },
+  {
+    id: 5,
+    name: 'Sneha Kapoor',
+    message: 'Can you review the latest PR?',
+    avatar: 'https://images.unsplash.com/photo-1725892604314-5d9c9f363757?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D',
+    time: '15m',
+    unread: 5
+  },
+  {
+    id: 6,
+    name: 'Ankit Thakur',
+    message: 'I\'ll be on call in 10 mins.',
+    avatar: 'https://images.unsplash.com/photo-1725327781554-05aaead6ed5a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyOTR8fHxlbnwwfHx8fHw%3D',
+    time: '1h',
+    unread: 4
+  },
+  {
+    id: 7,
+    name: 'Riya Sharma',
+    message: 'Check out this link I sent!',
+    avatar: 'https://images.unsplash.com/photo-1725610147248-4f20f7b13999?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1N3x8fGVufDB8fHx8fA%3D%3D',
+    time: '20m',
+    unread: 1
+  },
+  {
+    id: 8,
+    name: 'kavya Singh',
+    message: 'The meeting is postponed to 4 PM.',
+    avatar: 'https://images.unsplash.com/photo-1725327781554-05aaead6ed5a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyOTR8fHxlbnwwfHx8fHw%3D',
+    time: '3h',
+    unread: 3
+  },
+  {
+    id: 9,
+    name: 'Simran Kaur',
+    message: 'Loved the design you shared! 🌟',
+    avatar: 'https://images.unsplash.com/photo-1725696096775-bbddc1344597?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ',
+    time: '1d',
+    unread: 4
+  },
+  {
+    id: 10,
+    name: 'Rohit Bhatia',
+    message: 'I think there\'s a bug in the code.',
+    avatar: 'https://images.unsplash.com/photo-1725656471389-b78f4703271f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMDR8fHxlbnwwfHx8fHw%3D',
+    time: '6h',
+    unread: 2
+  },
+  {
+    id: 11,
+    name: 'Tanya Aggarwal',
+    message: 'Got some free time today?',
+    avatar: 'https://images.unsplash.com/photo-1724253367725-bc3c88b8b7e7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMzl8fHxlbnwwfHx8fHw%3D',
+    time: '4h',
+    unread: 4
+  },
+];

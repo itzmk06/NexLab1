@@ -11,7 +11,7 @@ const LandingBody = () => {
         Innovate . Inspire . Impact
         </h1>
         <div>
-          <h1 className="md:text-2xl text-xl main-font1 font-semibold text-[#B0BEC5] text-center leading-relaxed">
+          <h1 className="md:text-2xl text-xl main-font1 font-base text-[#B0BEC5] text-center leading-relaxed">
             Discover top projects and engage with an elite global developer community
           </h1>
         </div>

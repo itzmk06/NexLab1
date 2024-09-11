@@ -11,7 +11,7 @@ const NavBarApp = () => {
           <input
             type="text"
             placeholder="Search for projects, developers, topics, and more..."
-            className="text-white font-medium shadow-lg w-full outline-none outline-xl outline-gray-500 focus:outline-blue-600 bg-[#282828] bg-opacity-80 py-1 px-2 rounded-md text-base md:text-base transition-transform duration-300 ease-in-out transform hover:scale-105"
+            className="text-white font-medium shadow-lg w-full outline-none outline-xl outline-gray-500 focus:outline-[#00BFFF] bg-[#282828] bg-opacity-80 py-1 px-2 rounded-md text-base md:text-base transition-transform duration-300 ease-in-out transform hover:scale-105"
           />
         </div>
         <div className="flex items-center px-2 space-x-4 mr-5">

@@ -5,6 +5,7 @@ import AppLayout from "./AppLayout";
 import Login from "./Login";
 import SignUp from "./SignUp"
 import DashBoard from "./DashBoard";
+import Messages from "./Messages";
 
 const Body=()=>{
     const appRouter=createBrowserRouter([
@@ -26,6 +27,9 @@ const Body=()=>{
                 },{
                     path:'/dashboard',
                     element:<DashBoard/>
+                },{
+                    path:'/messages',
+                    element:<Messages/>
                 }
             ]
         }
