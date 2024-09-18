@@ -18,7 +18,7 @@ const MessageUserCards = ({ data }) => {
         </div>
         <div className="flex flex-col items-center justify-center ml-2 text-xs text-gray-400">
           <span>{data?.time}</span>
-          <div className="flex items-center justify-center w-4 h-4 mt-1 ml-1 text-sm font-semibold text-black bg-[#00BFFF] rounded-full">
+          <div className="flex items-center justify-center w-5 h-4 mt-1 ml-1 text-xs font-semibold text-black bg-[#00BFFF] rounded-full">
             {data?.unread}
           </div>
         </div>

@@ -218,3 +218,26 @@ export const dummyMessages = [
     unread: 4
   },
 ];
+
+export const messages = [
+  {
+    id: 1,
+    senderName: "Neeha Prajapati",
+    senderImage:
+      "https://images.unsplash.com/photo-1673443314719-aa8948a09a3f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDN8ODI1NDQzMXx8ZW58MHx8fHx8",
+    time: "2024-08-18T10:45:00",
+    message:
+      "Hey everyone! Just wanted to kick off the day by saying how excited I am to dive into our latest project. Who's ready to work some design magic?",
+    type: "sender",
+  },
+  {
+    id: 2,
+    senderName: "Kushi",
+    senderImage:
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDN8ODI1NDQzMXx8ZW58MHx8fHx8",
+    time: "2024-02-19T10:49:00",
+    message:
+      "That sounds awesome, Neeha! I'm ready to dive in as well. Let's make it a great day of design!",
+    type: "receiver",
+  },
+];

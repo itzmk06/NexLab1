@@ -15,7 +15,7 @@ const MessageSender = () => {
           <input
             type="text"
             placeholder="Type a message..."
-            className="w-full h-10 mt-[-0.2rem]  px-4 py-2  text-sm text-[#E0E0E0] bg-[#2a2a2a] rounded-2xl border border-[#3d3d3d] focus:border-[#00BFFF] focus:outline-none focus:ring-2 focus:ring-[#11B2AD] placeholder-gray-400 transition duration-300 ease-in-out"
+            className="w-full h-10 mt-[-0.2rem]  px-4 py-2  text-sm text-[#E0E0E0] bg-[#2a2a2a] rounded-2xl border border-[#3d3d3d] focus:border-[#00BFFF] focus:outline-none focus:ring-1 focus:ring-[#11B2AD] placeholder-gray-400 transition duration-300 ease-in-out"
           />
         </div>
         <div className="flex items-center gap-4">
